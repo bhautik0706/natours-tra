@@ -37,7 +37,7 @@ const Stripe = require('stripe');
 
 export const bookTour = async (tourId) => {
   const stripe = await loadStripe(
-    'pk_test_51Mp8VrSIGN8qdH2eGdthI4GrMDVUMFLiXtNvzVMLej9PcHBemU6YvOyNnxtbjHTCRxirOj7oe0po3RSzF5rMsPPJ00KcaEZ3WG'
+    'pk_test_51MqU2XSHFwgd3OhuThWl03vnevjNmiqsneizykj3REUUBSNGyu7PeNaQm22JwxE1Ttj6SFVoljcuX1DgUPZQUtrr00qa9C7LMN'
   );
 
   try {
